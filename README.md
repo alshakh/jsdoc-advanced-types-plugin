@@ -1,17 +1,17 @@
 
-## jsdoc-advanced-types-plugin
+# jsdoc-advanced-types-plugin
 
 This is a plugin for `jsdoc` to support advanced vscode/typescript type definitions which are not supported currently.
 
-### The problem :
+## The problem :
 
 I use vscode for development, and currently vscode & jsdoc have some conflicts in their syntax for type definitions. This forces me to have a choice, either use jsdoc definitions and have html docs, or use vscode type definitions for vscode autocompleted.
 
-### What this does ?
+## What this does ?
 
 This plugin taps into the jsdoc's document generation, and rewrites comment blocks to write it in a jsdoc type definitions, **it does not change your code, only the compiled documents**. So, you can enjoy both benifits.
 
-### Supported type definitions
+## Supported type definitions
 
 * arrow function definitions
 
@@ -45,7 +45,11 @@ will be converted to jsdoc compliant format
 
 * it supports following tags `@param`,`@type`,`@property`
 
-### Notes
+## Notes
+
+* use with `jsdoc-plugin-typescript` to support `import` statements
+
+other notes :
 
 * rashly implemented, probably full of bugs!
 * not very efficient
