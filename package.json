@@ -1,6 +1,6 @@
 {
   "name": "jsdoc-advanced-types-plugin",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "description": "JSDoc plugin to support typescript/vscode type definitions ",
   "main": "index.js",
   "scripts": {
