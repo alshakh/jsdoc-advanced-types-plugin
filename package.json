@@ -1,0 +1,25 @@
+{
+  "name": "jsdoc-advanced-types-plugin",
+  "version": "0.0.1",
+  "description": "JSDoc plugin to support typescript/vscode type definitions ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alshakh/jsdoc-advanced-types-plugin.git"
+  },
+  "keywords": [
+    "jsdoc",
+    "vscode",
+    "typescript",
+    "plugin"
+  ],
+  "author": "Alshakh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alshakh/jsdoc-advanced-types-plugin/issues"
+  },
+  "homepage": "https://github.com/alshakh/jsdoc-advanced-types-plugin#readme"
+}
