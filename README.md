@@ -7,9 +7,9 @@ This is a plugin for `jsdoc` to support advanced vscode/typescript type definiti
 
 I use vscode for development, and currently vscode & jsdoc have some conflicts in their syntax for type definitions. This forces me to have a choice, either use jsdoc definitions and have html docs, or use vscode type definitions for vscode autocompleted.
 
-## What this does ?
+## What this plugin does
 
-This plugin taps into the jsdoc's document generation, and rewrites comment blocks to write it in a jsdoc type definitions, **it does not change your code, only the compiled documents**. So, you can enjoy both benifits.
+This plugin taps into the jsdoc's document generation, and rewrites comment blocks to write it in a jsdoc type definitions, **it does not change your code, only the compiled documents**. So, you can enjoy both benefits.
 
 ## Supported type definitions
 
