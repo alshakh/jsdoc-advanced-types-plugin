@@ -43,7 +43,7 @@ will be converted to jsdoc compliant format
 @property {function} b signature `string => string`
 ```
 
-* it supports following tags `@param`,`@type`,`@property`
+* it supports following tags `@param`,`@type`,`@property`,`@return`
 
 ## Notes
 

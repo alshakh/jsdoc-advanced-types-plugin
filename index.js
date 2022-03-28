@@ -146,7 +146,7 @@ const parseType = (typeString) => {
 const parseTag = (tag) => {
 	let pointer = 0;
 	const tagname = tag.match(/^@\w+/)[0]
-	if (!["@property", "@type", "@param"].includes(tagname)) {
+	if (!["@property", "@type", "@param", "@return"].includes(tagname)) {
 		return tag
 	}
 	tag = tag.replace(/\n/g, " ")
